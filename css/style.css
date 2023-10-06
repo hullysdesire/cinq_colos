@@ -88,6 +88,11 @@ body {
   transition: all 0.4s ease;
 }
 
+
+.footer-widget{
+  margin-top:  50px;
+}
+
 a,
 .btn {
   color: var(--headings-color);
@@ -801,7 +806,7 @@ h2 {
 }
 
 .dashboard__sidebar {
-  background-color: #ffffff;
+  background-color: rgb(0, 255, 179);
   flex-shrink: 0;
   height: calc(100% - 90px);
   left: 0;
@@ -868,11 +873,12 @@ h2 {
 }
 
 .statistics_funfact {
-  background-color: #ffffff;
+  background-color: #fdc110;
   border-radius: 4px;
   margin-bottom: 30px;
   padding: 32px 50px 32px 30px;
   position: relative;
+  width: 300px;
 }
 .statistics_funfact .icon {
   color: #1F4B3F;
@@ -880,7 +886,7 @@ h2 {
   position: relative;
   z-index: 0;
 }
-.statistics_funfact .icon:before {
+/* .statistics_funfact .icon:before {
   background-color: #FBF7ED;
   border-radius: 50%;
   bottom: -10px;
@@ -890,7 +896,7 @@ h2 {
   right: -20px;
   width: 40px;
   z-index: -1;
-}
+} */
 .statistics_funfact .title {
   color: var(--headings-color);
   font-family: var(--title-font-family);
@@ -4150,7 +4156,7 @@ section {
 .cta-banner-about2 {
   align-items: center;
   display: flex;
-  height: 900px;
+  height: 700px;
 }
 @media (max-width: 1199.98px) {
   .cta-banner-about2 {
@@ -4165,7 +4171,7 @@ section {
   position: absolute;
   right: 0;
   top: 0;
-  width: 71%;
+  width: 100%;
 }
 @media (max-width: 1199.98px) {
   .cta-banner-about2:before {
@@ -4381,7 +4387,7 @@ section {
   background-image: url(../images/background/home11-cta-3.png);
   display: flex;
   align-items: center;
-  height: 500px;
+  padding-top: 50px;
 }
 @media (max-width: 767.98px) {
   .home11-cta-3 {
@@ -6615,7 +6621,6 @@ textarea {
 
 .btn-transparent2 {
   border: 1px solid #ffffff;
-  color: #ffffff;
 }
 .btn-transparent2:hover, .btn-transparent2:focus, .btn-transparent2:active {
   border: 1px solid #ffffff;
@@ -7315,6 +7320,7 @@ header.nav-homepage-style .header-logo.logo2 {
 }
 header.nav-homepage-style .btn-mega {
   color: #ffffff;
+  font-size: 16px;
 }
 header.nav-homepage-style .sidemenu-btn,
 header.nav-homepage-style .login-info {
@@ -10903,7 +10909,7 @@ input:focus-visible {
 }
 
 .bgc-thm4 {
-  background-color: #FFEDE8;
+  background-color: #FBF7ED;
 }
 
 .bgc-thm5 {
@@ -11161,6 +11167,7 @@ input:focus-visible {
 
 .fw500 {
   font-weight: 500;
+  margin-left: 10px;
 }
 
 .fw600 {
@@ -11728,7 +11735,7 @@ margin-left: 120px;
 margin-bottom: 20px;
 }
 .col-lg-8{
-width: 100%;
+
 display: flex;
 justify-content: space-around;
 gap: 10px;
@@ -11756,3 +11763,59 @@ margin-left: 50px;
 
 }
 
+
+/* for clien */
+
+.boxing{ 
+  display: flex;
+  margin-top:calc(-1 * var(--bs-gutter-y));
+  margin-right:calc(-.5 * var(--bs-gutter-x));
+  margin-left:calc(-.5 * var(--bs-gutter-x));
+  gap: 50px;
+}
+
+.text-center{
+  width: 100%;
+}
+
+.textos{
+  width: 50%;
+}
+
+.box{
+  display: flex;
+  gap: 50px;
+  
+}
+
+/* .partener */
+.text-center h2{
+  text-align: center;
+  /* margin-left: 50%; */
+  width: 100%;
+}
+/* */
+/* main-banner */
+p{
+  font-size: 18px;
+}
+
+/* Our CTA */
+
+.cta-style {
+  color: black;
+}
+
+.details h2{
+  margin-left:50px;
+}
+
+.poto{
+  background-image: url("../images/home/thoughtful-smiling-lady-looking-up-holding-laptop-isolated_171337-6670.webp");
+}
+
+/* header */
+header .list-item{
+  font-size: 16px;
+  margin-left: 10px;
+}
